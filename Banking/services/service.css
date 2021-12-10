@@ -1,0 +1,38 @@
+.bnkServiceContainer{
+    margin: 0%;
+    width:100%;
+    display: grid;
+    grid-template-rows: auto auto;
+   text-align: center;
+    background-color:#63FFC0;
+}
+
+.bnkServiceHeader{
+    margin: 20px 0;
+}
+
+
+.subBnkServiceContainer{
+    width:200px;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 30px 5px black;
+}
+
+.BnkServiceListItems{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns:200px 200px 200px 200px ;
+    grid-row-gap: 50px;
+}
+
+.bnkServiceImg{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
